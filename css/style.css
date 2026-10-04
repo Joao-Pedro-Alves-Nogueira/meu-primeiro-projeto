@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-  width: min(1100px, 92%);
+  width: min(1101px, 92%);
   margin-inline: auto;
 }
 
