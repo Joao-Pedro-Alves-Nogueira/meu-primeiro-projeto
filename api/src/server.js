@@ -17,6 +17,9 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+const authRoutes = require('./routes/auth.routes');
+app.use('/api/auth', authRoutes);
+
 const vagasRoutes = require('./routes/vagas.routes');
 app.use('/api/vagas', vagasRoutes);
 
